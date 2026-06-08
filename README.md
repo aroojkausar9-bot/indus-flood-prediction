@@ -178,6 +178,3 @@ Machine Learning Models With Cross-Basin Validation," SEECS, NUST, 2025.
 
 ---
 
-## 📜 License
-
-MIT License — see [LICENSE](LICENSE) for details.

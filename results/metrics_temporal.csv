@@ -1,0 +1,5 @@
+model,split,accuracy,precision,recall,f1,roc_auc
+RF,train,0.988,0.932,0.986,0.958,0.999
+RF,test,0.969,0.845,0.894,0.869,0.987
+SVM-PSO,train,0.955,0.768,0.972,0.858,0.992
+SVM-PSO,test,0.862,0.454,0.931,0.61,0.91

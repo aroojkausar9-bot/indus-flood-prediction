@@ -1,0 +1,44 @@
+{
+  "random_forest": {
+    "n_estimators": 150,
+    "max_depth": 10,
+    "min_samples_split": 20,
+    "min_samples_leaf": 10,
+    "max_features": "sqrt",
+    "class_weight": "balanced",
+    "decision_threshold": 0.1,
+    "train_period": "2010-2020",
+    "test_period": "2021-2024",
+    "train_accuracy": 0.988,
+    "test_accuracy": 0.969,
+    "test_recall": 0.894,
+    "test_f1": 0.869,
+    "test_roc_auc": 0.987
+  },
+  "svm_pso": {
+    "kernel": "rbf",
+    "best_C": 5.12,
+    "best_gamma": 0.00031,
+    "pso_n_particles": 6,
+    "pso_n_iterations": 10,
+    "pso_objective": "F1 (flood class)",
+    "class_weight": "balanced",
+    "decision_threshold": 0.1,
+    "train_period": "2010-2020",
+    "test_period": "2021-2024",
+    "train_accuracy": 0.955,
+    "test_accuracy": 0.862,
+    "test_recall": 0.931,
+    "test_f1": 0.61,
+    "test_roc_auc": 0.91
+  },
+  "scaler": {
+    "type": "RobustScaler",
+    "fitted_on": "2010-2020 training data"
+  },
+  "feature_count": 60,
+  "n_basins": 34,
+  "target": "Flood_Flag",
+  "train_samples": 4608,
+  "test_samples": 1632
+}
